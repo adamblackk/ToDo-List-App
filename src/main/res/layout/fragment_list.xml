@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+    <variable
+        name="sharedViewmodel"
+        type="com.example.todoapp.viewmodel.SharedViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listLayout"
+        android:clipToPadding="false"
+        android:paddingTop="?actionBarSize"
+        android:paddingBottom="?actionBarSize"
+        android:fitsSystemWindows="false"
+        android:background="?attr/backgroundColor"
+        tools:context=".fragment.list.ListFragment">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:clipToPadding="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            navigateToAddFragment="@{true}"
+            android:focusable="true"
+            android:background="?attr/floatBtnColor"
+            android:src="@drawable/ic_add"
+            app:layout_constraintBottom_toBottomOf="@+id/recyclerview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:tint="@color/red"/>
+
+        <ImageView
+            android:id="@+id/no_data_imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_note_add"
+            emptyDatabase="@{sharedViewmodel.emptyDatabase}"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/recyclerview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.41000003" />
+
+        <TextView
+            android:textColor="?attr/textColor"
+            android:id="@+id/no_data_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:alpha="0.5"
+            emptyDatabase="@{sharedViewmodel.emptyDatabase}"
+            android:text="@string/no_data"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/recyclerview"
+            app:layout_constraintStart_toStartOf="@+id/recyclerview"
+            app:layout_constraintTop_toBottomOf="@+id/no_data_imageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

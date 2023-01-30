@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToDoApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="backgroundColor">@color/white</item>
+        <item name="cardBackgroundColor">@color/light_gray</item>
+        <item name="textColor">@color/dark_gray</item>
+        <item name="buttonColor">@color/green</item>
+        <item name="tintColor">@color/white</item>
+        <item name="rowBackground">#FFFCFC</item>
+        <item name="saveItemColor">@color/white</item>
+        <item name="updateItemColor">@color/red</item>
+        <item name="floatBtnColor">@color/green</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#02E391</item>
+        <item name="android:navigationBarColor">#02E391</item>
+
+
+    </style>
+
+    <style name="DarkTheme.ToDoApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_gray</item>
+        <item name="colorPrimaryDark">@color/light_gray</item>
+        <item name="colorSecondary">@color/light_gray</item>
+
+        <!-- Customize your theme here. -->
+        <item name="backgroundColor">@color/dark_gray</item>
+        <item name="cardBackgroundColor">#BBBABA</item>
+        <item name="textColor">@color/dark_gray</item>
+        <item name="buttonColor">@color/light_gray</item>
+        <item name="tintColor">@color/light_gray</item>
+        <item name="rowBackground">@color/light_gray</item>
+        <item name="saveItemColor">@color/white</item>
+        <item name="updateItemColor">@color/light_gray</item>
+        <item name="floatBtnColor">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#E6615F5F</item>
+        <item name="android:navigationBarColor">#E6615F5F</item>
+    </style>
+
+    <style name="DynamicTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#DACAED</item>
+        <item name="colorPrimaryDark">@color/theme1ColorPrimaryDark</item>
+        <item name="colorSecondary">@color/theme1ColorSecondary</item>
+        <item name="rowBackground">@color/green</item>
+        <item name="buttonColor">#DACAED</item>
+        <item name="android:statusBarColor">@color/theme1ColorPrimaryDark</item>
+        <item name="android:navigationBarColor">#DACAED</item>
+
+    </style>
+
+
+    <style name="DynamicTheme2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/them2ColorPrimary</item>
+        <item name="colorPrimaryDark">#F1F660</item>
+        <item name="colorSecondary">@color/theme2ColorSecondary</item>
+        <item name="rowBackground">@color/red</item>
+        <item name="buttonColor">#F1F660</item>
+        <item name="android:statusBarColor">#F1F660</item>
+        <item name="android:navigationBarColor">@color/them2ColorPrimary</item>
+
+
+    </style>
+
+    <style name="DynamicTheme3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/them3ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme3ColorPrimaryDark</item>
+        <item name="colorSecondary">@color/theme3ColorSecondary</item>
+        <item name="rowBackground">@color/black</item>
+        <item name="buttonColor">@color/them3ColorPrimary</item>
+        <item name="android:statusBarColor">@color/theme3ColorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/them3ColorPrimary</item>
+
+
+    </style>
+
+    <style name="DynamicTheme4" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/them4ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme4ColorPrimaryDark</item>
+        <item name="colorSecondary">@color/theme4ColorSecondary</item>
+        <item name="rowBackground">@color/light_gray</item>
+        <item name="buttonColor">@color/them4ColorPrimary</item>
+        <item name="android:statusBarColor">@color/theme4ColorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/them4ColorPrimary</item>
+
+
+    </style>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.alarm.AlarmFragment"
+    android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/selected_time"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="08:45"
+      android:textSize="46sp"
+      android:textAlignment="center"
+      />
+    <Button
+        android:id="@+id/select_time_btn"
+        android:backgroundTint="@color/commonDark"
+        android:layout_gravity="center"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="SELECT TIME"
+        android:textColor="@color/white"
+        android:textSize="25sp">
+
+    </Button>
+    <Button
+        android:id="@+id/set_alarm_btn"
+        android:backgroundTint="@color/commonDark"
+        android:layout_gravity="center"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="SET ALARM"
+        android:textColor="@color/white"
+        android:textSize="25sp">
+
+    </Button>
+    <Button
+        android:id="@+id/cancel_alarm_btn"
+        android:backgroundTint="@color/commonDark"
+        android:layout_gravity="center"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="CANCEL ALARM"
+        android:textColor="@color/white"
+        android:textSize="25sp">
+
+    </Button>
+
+
+
+</LinearLayout>

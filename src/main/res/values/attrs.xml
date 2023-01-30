@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="theme" >
+        <attr name="backgroundColor" format="color"/>
+        <attr name="cardBackgroundColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="buttonColor" format="color"/>
+        <attr name="tintColor" format="color"/>
+        <attr name="rowBackground" format="color"/>
+        <attr name="saveItemColor" format="color"/>
+        <attr name="updateItemColor" format="color"/>
+        <attr name="floatBtnColor" format="color"/>
+
+        <attr name="themeColorPrimary" format="color"/>
+        <attr name="themeColorPrimaryDark" format="color"/>
+        <attr name="themeSecondaryColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToDoApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_gray</item>
+        <item name="colorPrimaryVariant">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="backgroundColor">@color/dark_gray</item>
+        <item name="cardBackgroundColor">#BBBABA</item>
+        <item name="textColor">@color/dark_gray</item>
+        <item name="buttonColor">@color/purple_700</item>
+        <item name="tintColor">@color/light_gray</item>
+        <item name="rowBackground">@color/light_gray</item>
+        <item name="saveItemColor">@color/white</item>
+        <item name="updateItemColor">@color/light_gray</item>
+        <item name="floatBtnColor">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#E6615F5F</item>
+        <item name="android:navigationBarColor">@color/dark_gray</item>
+    </style>
+</resources>

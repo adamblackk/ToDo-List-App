@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF4646</color>
+    <color name="yellow">#FFC114</color>
+    <color name="green">#00C980</color>
+    <color name="light_gray">#E6E6E6E6</color>
+    <color name="dark_gray">#4B4B4B</color>
+
+
+    <color name="commonDark">#E6615F5F</color>
+    <color name="themeColorPrimary">#00C980</color>
+
+    <color name="them1ColorPrimary">#E9E4EF</color>
+    <color name="theme1ColorPrimaryDark">#230253</color>
+    <color name="theme1ColorSecondary">#6C18E3</color>
+
+
+    <color name="them2ColorPrimary">#E8AD4A</color>
+    <color name="theme2ColorPrimaryDark">#802561</color>
+    <color name="theme2ColorSecondary">#C5B744</color>
+
+
+    <color name="them3ColorPrimary">#FF693A</color>
+    <color name="theme3ColorPrimaryDark">#F13527</color>
+    <color name="theme3ColorSecondary">#FFA73B</color>
+
+
+    <color name="them4ColorPrimary">#377CE4</color>
+    <color name="theme4ColorPrimaryDark">#061368</color>
+    <color name="theme4ColorSecondary">#4C65EF</color>
+</resources>
+
